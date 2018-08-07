@@ -228,7 +228,7 @@ input[type=submit] {
 @media screen and (max-width:980px){
   body{
     background-color: purple;
-    color:white;
+    /* color:white; */
   }
   .container{
     max-width: 620px;
@@ -239,7 +239,7 @@ input[type=submit] {
 @media screen and (max-width:768px){
   body{
     background-color: lightgreen;
-    color:white;
+    /* color:white; */
   }
   .container{
     max-width: 740px;
@@ -250,10 +250,19 @@ input[type=submit] {
 @media screen and (max-width:640px){
   body{
     background-color: purple;
-    color:white;
+    /* color:white; */
   }
   .container{
-    max-width: 620px;
+    width: 100%;
     background: lightgreen;
+  }
+  .main-section{
+    width: 100%;
+  }
+  .logo{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
   }
 }
