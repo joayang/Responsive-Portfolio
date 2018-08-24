@@ -4,9 +4,19 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;;
   font-size: 18px;
   line-height: 150%;
-  color: #333;
-  background: url("../images/concrete_seamless.png");
+  color: rgb(24, 23, 23);
+  background: url("../images/beigepaper.jpg");
 }
+/* .fa-staylinked{
+  position: absolute;
+  right:10px;
+  bottom:30px;
+}
+.fa-github{
+  position: absolute;
+  left:150px;
+  bottom:30px;
+} */
 
 * {
   box-sizing: border-box;
@@ -25,7 +35,7 @@ h1 {
   margin-bottom: 20px;
   color: #eee;
   text-align: center;
-  background: #333;
+  background: rgb(70, 24, 60);
 }
 h1,
 h2,
@@ -95,7 +105,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: rgb(65, 56, 56);
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -113,7 +123,7 @@ footer {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
+  background: rgb(70, 24, 60);
   border-top: 8px solid #4aaaa5;
   height: 50px;
   position: fixed;
@@ -226,35 +236,23 @@ input[type=submit] {
   border: 0 none;
 }
 @media screen and (max-width:980px){
-  body{
-    background-color: purple;
-    /* color:white; */
-  }
   .container{
     max-width: 620px;
-    background: lightgreen;
+    /* background: lightgreen; */
   }
 }
 /* 768px is about the width of a table */
 @media screen and (max-width:768px){
-  body{
-    background-color: lightgreen;
-    /* color:white; */
-  }
   .container{
     max-width: 740px;
-    background: lightgreen;
+    /* background: lightgreen; */
   }
 }
 /*640px is about the width of a phone in landscape */
 @media screen and (max-width:640px){
-  body{
-    background-color: purple;
-    /* color:white; */
-  }
   .container{
     width: 100%;
-    background: lightgreen;
+    /* background: lightgreen; */
   }
   .main-section{
     width: 100%;
