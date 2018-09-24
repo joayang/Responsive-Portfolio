@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100%;
   font-family: Georgia, "Times New Roman", Times, serif;;
   font-size: 18px;
   line-height: 150%;
@@ -23,8 +24,8 @@ body {
 }
 /* general */
 .container {
-  width: 1024px;
-  max-width: 960px;
+  width: 100%;
+  /* max-width: 960px; */
   margin: 0 auto;
   clear: both;
 }
@@ -81,7 +82,12 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+.icon {
+	float: left;
+	width: 15%;
+	margin: 5%;
+}
+#logo{
   float: left;
   width: 250px;
   height: 90px;
@@ -93,7 +99,15 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+  clear: both;
 }
+/* #bio-image {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+} */
 
 nav {
   float: right;
@@ -137,31 +151,74 @@ h3, h2 {
   border-bottom: 2px solid #eee;
 }
 
+
 /* main */
+#main-bio,
+#contact-form,
+#project-portfolio {
+	position: relative;
+	text-align: left;
+	width: 60%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	height: auto;
+	padding: 20px;
+}
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 100px;
   min-height: calc(100vh - 70px);
+  width: 100%;
 }
 
 .main-section {
   float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
+  width: 60%;
+  margin-left: 5%;
+  margin-right: 1%;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.main-div{
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 1%;
   background: #fff;
   border: 1px solid #ddd;
 }
 
-/* portfolio page */
-
-.work {
-  position: relative;
+#social-links {
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+  width: 30%;
+  text-align: center;
+  background: #fff;
+
+}
+/* portfolio page */
+.img-thumbnail {
+	margin: 1%;
+	overflow: auto;
+	float: left;
+	position: relative;
+	width: 243px;
+}
+ul > li {
+	list-style: none;
+}
+.work h3:hover {
+	background: #ffa23a;
+}
+.skills {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+
+
+.navbar {
+  margin-right: 4%;
+  margin-left: 4%;
 }
 
 .work:nth-child(even) {
@@ -194,10 +251,10 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  margin-left: 50px;
 }
 
 /* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -254,7 +311,16 @@ input[type=submit] {
     width: 100%;
     /* background: lightgreen; */
   }
-  .main-section{
+  .main-section {
+	
+  }
+ 
+  .auth-bio {
+	  width: 200px;
+	  margin: auto;
+
+  }
+  /* .main-section{
     width: 100%;
   }
   .logo{
@@ -262,5 +328,5 @@ input[type=submit] {
   }
   nav{
     width: 100%;
-  }
+  } */
 }

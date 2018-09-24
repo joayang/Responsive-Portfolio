@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en-us">
-
 <head>
+  <!-- Document's character set. -->
   <meta charset="UTF-8">
+  <!-- Document responsive across devices. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Joanna Yang</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -14,33 +15,38 @@
 <body>
   <header id="masthead">
     <div class="container">
-      <a href="index.html" class="logo">Joanna Yang</a>
-      <!-- <div class='icon'> -->
-          <span style="font-size: 2em; color: midiumslateblue;">
-            <a href="https://www.linkedin.com/in/joanna-yang"><i class="fab fa-staylinked"></i></a>
-          </span>
-        
-          <span style="font-size: 2em; color: black;">
-            <a href="https://github.com/joayang" target="_blank"><i class="fab fa-github-square"></i></a>
-          </span>
-        <!-- </div> -->
-      <nav>
+      <a href="index.html" id="logo">Joanna Yang</a>
+      <nav class="navbar">
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
+		<a href="skills.html">Skills</a>
         <a href="contact.html">Contact</a>
+		
       </nav>
     </div>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
+	<div class="bio">
       <h1>About Me</h1>
 
       <img src="assets/images/JoannaY.jpg" class="auth-image" alt="Joanna Yang">
-    <p>My career path has been fueled by my curiosity and the confidence to learn and do something new. My role has included
+    <div class="auth-bio">My career path has been fueled by my curiosity and the confidence to learn and do something new. My role has included
         digital modeler, ECAD tools Supported 485 engineering and operations users in a multi-geo environment. Worked with
         program manager and software developers to quickly resolve issues. and for last 4 years, Accessibility tester, publishing,
-        library builder.</p>
+        library builder.</div>
+    </section>
+    <section id="social-links">
+      <h1>Connect with Me</h1>
+      <ul class="row">    
+        <!-- <li class="left-align"><a href="https://github.com/joayang" target="_blank"><i class="fab fa-github-square" alt="GitHub Profile"></a></li>
+        <li class="left-align"><a href="https://www.linkedin.com/in/joanna-yang"><i class="fab fa-staylinked" alt="LinkedIn Profile"></a></li>
+        <li class="left-align"><a href="http://stackoverflow.com/users/2145598/meggin-kearney"><img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow Profile"></a></li> -->
+        <li class="left-align"><a href="https://github.com/joayang"><img class="icon" src="assets/images/github.png" alt="GitHub Profile"></a></li>
+        <li class="left-align"><a href="https://www.linkedin.com/in/joanna-yang/"><img class="icon" src="assets/images/square-linkedin.png" alt="LinkedIn Profile"></a></li>
+        <li class="left-align"><a href="http://stackoverflow.com/users/8586384/user132792"><img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow Profile"></a></li>
+      </ul>
     </section>
   </div>
 <!-- <div class='icon'>
@@ -52,9 +58,12 @@
     <a href="https://github.com/joayang" target="_blank"><i class="fab fa-github-square"></i></a>
   </span>
 </div> -->
+
+</div>
+
   <footer>
     <div class="container">
-      Copyright &copy;
+      Copyright &copy; 2018 Joanna Yang
     </div>
   </footer>
 </body>
